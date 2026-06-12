@@ -1,2 +1,0 @@
-# PlayPulse-iOS
-PlayPulse-iOS
