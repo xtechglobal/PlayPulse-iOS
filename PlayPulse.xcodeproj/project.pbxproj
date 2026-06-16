@@ -34,16 +34,28 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				Models/AppStats.swift,
 			);
 			target = E126E10F2F4FE39C00B703B7 /* PlayPulse */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		E1EEB9802FE0D84300E7684F /* Exceptions for "PlayPulse" folder in "Copy Bundle Resources" phase from "PlayPulse" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = E126E10E2F4FE39C00B703B7 /* Resources */;
+			membershipExceptions = (
+				Models/AppStats.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E126E1122F4FE39C00B703B7 /* PlayPulse */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				E126E1332F4FE39D00B703B7 /* Exceptions for "PlayPulse" folder in "PlayPulse" target */,
+				E1EEB9802FE0D84300E7684F /* Exceptions for "PlayPulse" folder in "Copy Bundle Resources" phase from "PlayPulse" target */,
 			);
 			path = PlayPulse;
 			sourceTree = "<group>";
